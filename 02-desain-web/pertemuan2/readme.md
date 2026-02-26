@@ -2,4 +2,4 @@
 
 <!-- preview image -->
 
-![Preview CV](hasil.png)
+![Preview](hasil.png)
