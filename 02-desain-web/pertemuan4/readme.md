@@ -3,3 +3,5 @@
 <!-- preview image -->
 
 ![Preview](img/hasil.png)
+![Preview](img/hasil2.png)
+![Preview](img/hasil3.png)
