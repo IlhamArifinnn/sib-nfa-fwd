@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: cadetblue;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* NAV FIX */
+nav {
+  background-color: rgb(68, 111, 112);
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+nav h2 {
+  color: #fff;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: cadetblue;
+}
+
+.layout {
+  display: flex;
+  min-height: calc(100vh - 160px);
+  padding: 20px;
+  gap: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: cadetblue;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu li:hover {
+  background-color: #ccc;
+}
+
+/* MAIN CONTENT */
+main.content {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+main.content h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+/* CARD */
+.card {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: cadetblue;
+}
+
+/* FOOTER NORMAL */
+footer {
+  position: static;
+  background-color: cadetblue;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
